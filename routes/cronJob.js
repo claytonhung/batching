@@ -16,7 +16,6 @@ exports.create = function(item, tw, sms, fb){
   time.setMinutes(itemTime[1]);
 
   const job = new CronJob(time, function() {
-    console.log('tweet', _tw);
     push.tweet(_tw, message);
     // push.sendSMS
     // push.sendFB()
