@@ -150,7 +150,7 @@ jQuery(document).ready(function() {
             parent_fieldset.fadeOut(400, function() {
                 $.ajax({
                   type: 'POST',
-                  url: 'http://localhost:3000/api/v1/postItems',
+                  url: '/api/v1/postItems',
                   dataType: 'json',
                   data: obj
                 }).done(function(res) {
