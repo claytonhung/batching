@@ -4,8 +4,7 @@ jQuery(document).ready(function() {
     /*
         Fullscreen background
     */
-    $.backstretch("assets/img/photo-1436891620584-47fd0e565afb.jpeg");
-    // $.backstretch("assets/img/backgrounds/1.jpg");
+    $.backstretch("assets/img/backgrounds/1.jpeg");
 
     $('#top-navbar-1').on('shown.bs.collapse', function(){
         $.backstretch("resize");
